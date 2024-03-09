@@ -1,0 +1,5 @@
+puts "por favor, insira seu nome"
+nome= gets.chomp
+puts "por favor, insira sua idade"
+idade= gets.chomp
+puts "seu nome é #{nome} e voce tem #{idade} anos "
