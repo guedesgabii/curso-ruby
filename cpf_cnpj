@@ -1,0 +1,15 @@
+require 'cpf_cnpj'
+
+def cpf_valido?(numero)
+  CPF.valid?(numero)
+end
+
+puts "Digite o número do CPF:"
+numero = gets.chomp
+
+if cpf_valido?(numero)
+  puts "O CPF é válido."
+else
+  puts "O CPF é inválido."
+end
+
